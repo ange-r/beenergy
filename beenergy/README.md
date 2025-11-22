@@ -107,7 +107,6 @@ La plataforma utiliza **Stellar blockchain** para tokenizar kWh de energía como
 | **Stellar SDK** | 14.2.0 | Integración con Stellar |
 | **DeFindex SDK** | 0.1.1 | Yield farming automático |
 | **Soroban** | Latest | Smart contracts (Rust) |
-| **Supabase** | 2.84.0 | Base de datos & Auth |
 
 ### Blockchain
 - **Stellar Testnet/Mainnet** - Red blockchain
@@ -132,8 +131,8 @@ La plataforma utiliza **Stellar blockchain** para tokenizar kWh de energía como
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│                     USUARIO (Browser)                        │
-│                  (Freighter Wallet)                          │
+│                     USUARIO (Browser)                       │
+│                  (Freighter Wallet)                         │
 └───────────────────┬─────────────────────────────────────────┘
                     │
         ┌───────────▼───────────┐
@@ -150,21 +149,21 @@ La plataforma utiliza **Stellar blockchain** para tokenizar kWh de energía como
         │  /api/defindex/*  |  Custom endpoints         │
         └───────────┬───────────────────────────────────┘
                     │
-        ┌───────────┴───────────┐
+        ┌───────────┴──────────┐
+        │                      │
+┌───────▼──────────┐   ┌───────▼─────────┐
+│  DeFindex SDK    │   │  Stellar SDK    │
+│  (lib/defindex-  │   │  (Blockchain)   │
+│   service.ts)    │   │                 │
+└───────┬──────────┘   └────────┬────────┘
         │                       │
-┌───────▼──────────┐   ┌───────▼──────────┐
-│  DeFindex SDK    │   │  Stellar SDK     │
-│  (lib/defindex-  │   │  (Blockchain)    │
-│   service.ts)    │   │                  │
-└───────┬──────────┘   └───────┬──────────┘
-        │                       │
-┌───────▼──────────┐   ┌───────▼──────────┐
-│  DeFindex API    │   │  Stellar Network │
-│  (Soroban Vaults)│   │  • Testnet       │
-│  • APY Stats     │   │  • Mainnet       │
+┌───────▼──────────┐   ┌────────▼──────────┐
+│  DeFindex API    │   │  Stellar Network  │
+│  (Soroban Vaults)│   │  • Testnet        │
+│  • APY Stats     │   │  • Mainnet        │
 │  • Deposits      │   │  • Smart Contracts│
-│  • Withdrawals   │   │  • DEX Trading   │
-└──────────────────┘   └──────────────────┘
+│  • Withdrawals   │   │  • DEX Trading    │
+└──────────────────┘   └───────────────────┘
                 │
         ┌───────▼──────────┐
         │    Supabase      │
@@ -244,9 +243,6 @@ DEFINDEX_API_KEY="sk_your_api_key_here"
 DEFINDEX_BASE_URL="https://api.defindex.io"
 NEXT_PUBLIC_DEFINDEX_VAULT_ADDRESS="VAULT_ADDRESS_HERE"
 
-# Supabase (Opcional)
-NEXT_PUBLIC_SUPABASE_URL="your_supabase_url"
-NEXT_PUBLIC_SUPABASE_ANON_KEY="your_supabase_key"
 ```
 
 ### Obtener DeFindex API Key
@@ -515,23 +511,12 @@ npm run format
 
 ## 🌐 Deployment
 
-### Vercel (Recomendado)
-
-1. **Push a GitHub**
-2. **Conectar en** [vercel.com](https://vercel.com)
-3. **Configurar env vars:**
-   - `DEFINDEX_API_KEY` (secret)
-   - `NEXT_PUBLIC_DEFINDEX_VAULT_ADDRESS`
-   - Todas las de `.env.example`
-4. **Deploy automático**
-
 ### Build Manual
 
 ```bash
 npm run build
 npm run preview
 ```
-
 ---
 
 ## 📊 Dependencias Principales
@@ -553,9 +538,6 @@ npm run preview
 - `eslint` + `prettier`
 - `husky` - Git hooks
 - `vite` 7.1.11
-
-**Total:** ~80 dependencias
-
 ---
 
 ## 🎨 Diseño
@@ -689,8 +671,6 @@ MIT License - Ver [LICENSE](LICENSE)
 - **Stellar Development Foundation** - Infraestructura blockchain
 - **DeFindex Team / Palta Labs** - SDK de yield farming
 - **OpenZeppelin** - Contratos seguros
-- **Vercel** - Hosting
-- **Supabase** - Database
 - **Hackathon Stellar Hack+** - Impulso inicial
 - **Comunidad Open Source**
 
