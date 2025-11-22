@@ -28,14 +28,18 @@ export function Sidebar() {
   return (
     <aside className="hidden md:flex fixed left-0 top-0 bottom-0 w-64 bg-card border-r border-border flex-col">
       {/* Logo */}
-      <div className="p-6 border-b border-border">
-        <div className="flex items-center gap-2">
-          <div className="w-10 h-10 bg-[#F2C230] rounded-full flex items-center justify-center">
-            <Leaf className="w-6 h-6 text-[#0300AB]" />
-          </div>
-          <span className="text-2xl font-bold">BeEnergy</span>
-        </div>
-      </div>
+<div className="p-6 border-b border-border">
+  <div className="flex items-center gap-2">
+    <div className="w-10 h-10 bg-white/20 rounded-full flex items-center justify-center">
+      <img 
+        src="/beenergy-assets/iso-transparente.png" 
+        alt="BeEnergy Logo"
+        className="w-6 h-6 object-contain"
+      />
+    </div>
+    <span className="text-2xl font-bold">BeEnergy</span>
+  </div>
+</div>
 
       {/* Menu */}
       <nav className="flex-1 p-4 space-y-2">

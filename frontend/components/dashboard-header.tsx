@@ -3,6 +3,7 @@ import { useState } from "react"
 import { useRouter } from "next/navigation"
 import { useWallet } from "@/lib/wallet-context"
 import { generateIdenticon } from "@/lib/mock-data"
+import { User } from "lucide-react"
 import { MobileSidebar } from "@/components/mobile-sidebar"
 import { ThemeToggle } from "@/components/theme-toggle"
 import { LanguageSelector } from "@/components/language-selector"
@@ -32,7 +33,6 @@ export function DashboardHeader() {
         <div className="flex items-center gap-4">
           <MobileSidebar />
         </div>
-
         <div className="flex items-center gap-3">
           <LanguageSelector />
           <ThemeToggle />
@@ -50,10 +50,9 @@ export function DashboardHeader() {
           ) : (
             <button
               onClick={goToProfile}
-              className="w-9 h-9 md:w-10 md:h-10 rounded-full flex items-center justify-center text-white font-bold text-sm md:text-base flex-shrink-0 hover:ring-2 hover:ring-primary transition-all cursor-pointer"
-              style={{ backgroundColor: identiconColor }}
+              className="w-9 h-9 md:w-10 md:h-10 rounded-full flex items-center justify-center flex-shrink-0 hover:bg-primary/10 transition-all cursor-pointer bg-gradient-to-br from-primary/20 to-accent/20 border-2 border-primary/30"
             >
-              {shortAddress?.slice(0, 2) || "BE"}
+              <User className="w-5 h-5 text-primary" />
             </button>
           )}
         </div>

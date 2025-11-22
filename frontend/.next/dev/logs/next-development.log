@@ -1,11 +1,1270 @@
-[00:00:01.584] Server  LOG     
-[00:00:01.584] Server  LOG        We detected TypeScript in your project and reconfigured your tsconfig.json file for you.
-[00:00:01.584] Server  LOG        The following suggested values were added to your tsconfig.json. These values can be changed to fit your project's needs:
+[00:00:02.409] Server  LOG      ✓ Ready in 1669ms
+[00:00:49.813] Server  LOG      ○ Compiling / ...
+[00:01:10.794] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:14.991] Server  LOG      ○ Compiling /dashboard ...
+[00:01:36.058] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:01:36.059] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:01:36.059] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763827525683}
+[00:01:37.142] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/dashboard","o":"http://localhost:3000/dashboard","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763827526051}
+[00:01:46.835] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763827536469}
+[00:40:27.097] Server  LOG      ✓ Compiled in 4.6s
+[00:40:27.980] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./beenergy/frontend/lib/i18n-context.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:40:35.979] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:40:38.114] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:40:38.114] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:40:38.114] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763829866880}
+[00:44:28.902] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./beenergy/frontend/lib/i18n-context.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:44:28.923] Server  LOG      ✓ Compiled in 406ms
+[00:44:31.101] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:44:31.797] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:44:31.798] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:44:31.798] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763830101214}
+[00:44:36.912] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:44:37.433] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:44:37.433] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:44:37.434] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763830107097}
+[00:44:40.450] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:44:40.823] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:44:40.823] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:44:40.823] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763830110486}
+[00:45:36.788] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./beenergy/frontend/lib/i18n-context.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:45:36.818] Server  LOG      ✓ Compiled in 242ms
+[00:45:38.919] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:45:39.319] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:45:39.319] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:45:39.319] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763830168978}
+[00:46:20.671] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./beenergy/frontend/lib/i18n-context.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:46:20.695] Server  LOG      ✓ Compiled in 249ms
+[00:46:22.383] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:46:23.501] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:46:23.501] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:46:23.501] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763830212454}
+[00:46:45.733] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./beenergy/frontend/lib/i18n-context.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:46:45.755] Server  LOG      ✓ Compiled in 162ms
+[00:46:47.502] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:46:48.551] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:46:48.551] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:46:48.551] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763830237586}
+[00:48:07.659] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./beenergy/frontend/lib/i18n-context.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:48:07.683] Server  LOG      ✓ Compiled in 177ms
+[00:48:09.159] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:48:10.374] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:48:10.374] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:48:10.374] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763830319168}
+[00:48:54.897] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./beenergy/frontend/lib/i18n-context.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:48:54.926] Server  LOG      ✓ Compiled in 146ms
+[00:48:56.466] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:48:57.516] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:48:57.516] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:48:57.516] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763830366464}
+[00:55:30.797] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:55:31.301] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:55:31.301] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:55:31.301] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763830760965}
+[00:59:38.297] Server  LOG      ✓ Compiled in 1681ms
+[01:00:09.599] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:00:09.599] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:00:09.599] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[01:00:09.599] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763831035913}
+[01:03:53.454] Server  LOG      ✓ Compiled in 2.7s
+[02:21:47.345] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:21:48.967] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[02:21:48.967] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[02:21:48.967] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763835937942}
+[02:28:53.048] Server  LOG      ✓ Compiled in 2.2s
+[02:28:56.346] Server  LOG      ○ Compiling /_not-found/page ...
+[02:32:04.310] Server  LOG      ✓ Compiled in 3.2s
+[02:32:06.609] Browser ERROR   ./beenergy/frontend/app/page.tsx:94:17
+Parsing ecmascript source code failed
+  92 |           </Button>
+  93 |         </div>
+> 94 |       </section>
+     |                 ^
+> 95 |
+     | ^
+> 96 |       {/* Features Section */}
+     | ^^^^^^^
+  97 |       <section className="container mx-auto px-4 py-12 md:py-20">
+  98 |         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-6 md:gap-8 max-w-6xl mx-auto">
+  99 |           <div className="glass-card p-6 md:p-8 rounded-2xl text-center hover:scale-105 transition-transform">
 
-[00:00:01.585] Server  LOG        	- include was updated to add '.next/dev/types/**/*.ts'
-[00:00:01.585] Server  LOG     
-[00:00:01.585] Server  LOG        The following mandatory changes were made to your tsconfig.json:
+Expected '</', got 'jsx text (
 
-[00:00:01.585] Server  LOG        	- jsx was set to react-jsx (next.js uses the React automatic runtime)
-[00:00:01.585] Server  LOG     
-[00:00:01.801] Server  LOG      ✓ Ready in 1232ms
+      )'
+
+Import traces:
+  Client Component Browser:
+    ./beenergy/frontend/app/page.tsx [Client Component Browser]
+    ./beenergy/frontend/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./beenergy/frontend/app/page.tsx [Client Component SSR]
+    ./beenergy/frontend/app/page.tsx [Server Component]
+[02:32:07.897] Server  ERROR    ⨯ ./beenergy/frontend/app/page.tsx:94:17
+Parsing ecmascript source code failed
+  92 |           </Button>
+  93 |         </div>
+> 94 |       </section>
+     |                 ^
+> 95 |
+     | ^
+> 96 |       {/* Features Section */}
+     | ^^^^^^^
+  97 |       <section className="container mx-auto px-4 py-12 md:py-20">
+  98 |         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-6 md:gap-8 max-w-6xl mx-auto">
+  99 |           <div className="glass-card p-6 md:p-8 rounded-2xl text-center hover:scale-105 transition-transform">
+
+Expected '</', got 'jsx text (
+
+      )'
+
+Import traces:
+  Client Component Browser:
+    ./beenergy/frontend/app/page.tsx [Client Component Browser]
+    ./beenergy/frontend/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./beenergy/frontend/app/page.tsx [Client Component SSR]
+    ./beenergy/frontend/app/page.tsx [Server Component]
+
+
+[02:32:09.006] Browser ERROR   ./beenergy/frontend/app/page.tsx:94:17
+Parsing ecmascript source code failed
+  92 |           </Button>
+  93 |         </div>
+> 94 |       </section>
+     |                 ^
+> 95 |
+     | ^
+> 96 |       {/* Features Section */}
+     | ^^^^^^^
+  97 |       <section className="container mx-auto px-4 py-12 md:py-20">
+  98 |         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-6 md:gap-8 max-w-6xl mx-auto">
+  99 |           <div className="glass-card p-6 md:p-8 rounded-2xl text-center hover:scale-105 transition-transform">
+
+Expected '</', got 'jsx text (
+
+      )'
+
+Import traces:
+  Client Component Browser:
+    ./beenergy/frontend/app/page.tsx [Client Component Browser]
+    ./beenergy/frontend/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./beenergy/frontend/app/page.tsx [Client Component SSR]
+    ./beenergy/frontend/app/page.tsx [Server Component]
+[02:32:10.967] Server  LOG      ○ Compiling /_error ...
+[02:32:21.063] Browser ERROR   ./beenergy/frontend/app/page.tsx:94:17
+Parsing ecmascript source code failed
+  92 |           </Button>
+  93 |         </div>
+> 94 |       </section>
+     |                 ^
+> 95 |
+     | ^
+> 96 |       {/* Features Section */}
+     | ^^^^^^^
+  97 |       <section className="container mx-auto px-4 py-12 md:py-20">
+  98 |         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-6 md:gap-8 max-w-6xl mx-auto">
+  99 |           <div className="glass-card p-6 md:p-8 rounded-2xl text-center hover:scale-105 transition-transform">
+
+Expected '</', got 'jsx text (
+
+      )'
+
+Import traces:
+  Client Component Browser:
+    ./beenergy/frontend/app/page.tsx [Client Component Browser]
+    ./beenergy/frontend/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./beenergy/frontend/app/page.tsx [Client Component SSR]
+    ./beenergy/frontend/app/page.tsx [Server Component]
+[02:32:21.289] Browser ERROR   ./beenergy/frontend/app/page.tsx:94:17
+Parsing ecmascript source code failed
+  92 |           </Button>
+  93 |         </div>
+> 94 |       </section>
+     |                 ^
+> 95 |
+     | ^
+> 96 |       {/* Features Section */}
+     | ^^^^^^^
+  97 |       <section className="container mx-auto px-4 py-12 md:py-20">
+  98 |         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-6 md:gap-8 max-w-6xl mx-auto">
+  99 |           <div className="glass-card p-6 md:p-8 rounded-2xl text-center hover:scale-105 transition-transform">
+
+Expected '</', got 'jsx text (
+
+      )'
+
+Import traces:
+  Client Component Browser:
+    ./beenergy/frontend/app/page.tsx [Client Component Browser]
+    ./beenergy/frontend/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./beenergy/frontend/app/page.tsx [Client Component SSR]
+    ./beenergy/frontend/app/page.tsx [Server Component]
+[02:32:26.776] Browser ERROR   ./beenergy/frontend/app/page.tsx:94:17
+Parsing ecmascript source code failed
+  92 |           </Button>
+  93 |         </div>
+> 94 |       </section>
+     |                 ^
+> 95 |
+     | ^
+> 96 |       {/* Features Section */}
+     | ^^^^^^^
+  97 |       <section className="container mx-auto px-4 py-12 md:py-20">
+  98 |         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-6 md:gap-8 max-w-6xl mx-auto">
+  99 |           <div className="glass-card p-6 md:p-8 rounded-2xl text-center hover:scale-105 transition-transform">
+
+Expected '</', got 'jsx text (
+
+      )'
+
+Import traces:
+  Client Component Browser:
+    ./beenergy/frontend/app/page.tsx [Client Component Browser]
+    ./beenergy/frontend/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./beenergy/frontend/app/page.tsx [Client Component SSR]
+    ./beenergy/frontend/app/page.tsx [Server Component]
+[02:32:26.776] Browser ERROR   ./beenergy/frontend/app/page.tsx:94:17
+Parsing ecmascript source code failed
+  92 |           </Button>
+  93 |         </div>
+> 94 |       </section>
+     |                 ^
+> 95 |
+     | ^
+> 96 |       {/* Features Section */}
+     | ^^^^^^^
+  97 |       <section className="container mx-auto px-4 py-12 md:py-20">
+  98 |         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-6 md:gap-8 max-w-6xl mx-auto">
+  99 |           <div className="glass-card p-6 md:p-8 rounded-2xl text-center hover:scale-105 transition-transform">
+
+Expected '</', got 'jsx text (
+
+      )'
+
+Import traces:
+  Client Component Browser:
+    ./beenergy/frontend/app/page.tsx [Client Component Browser]
+    ./beenergy/frontend/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./beenergy/frontend/app/page.tsx [Client Component SSR]
+    ./beenergy/frontend/app/page.tsx [Server Component]
+[02:32:32.603] Browser ERROR   ./beenergy/frontend/app/page.tsx:94:17
+Parsing ecmascript source code failed
+  92 |           </Button>
+  93 |         </div>
+> 94 |       </section>
+     |                 ^
+> 95 |
+     | ^
+> 96 |       {/* Features Section */}
+     | ^^^^^^^
+  97 |       <section className="container mx-auto px-4 py-12 md:py-20">
+  98 |         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-6 md:gap-8 max-w-6xl mx-auto">
+  99 |           <div className="glass-card p-6 md:p-8 rounded-2xl text-center hover:scale-105 transition-transform">
+
+Expected '</', got 'jsx text (
+
+      )'
+
+Import traces:
+  Client Component Browser:
+    ./beenergy/frontend/app/page.tsx [Client Component Browser]
+    ./beenergy/frontend/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./beenergy/frontend/app/page.tsx [Client Component SSR]
+    ./beenergy/frontend/app/page.tsx [Server Component]
+[02:32:32.603] Browser ERROR   ./beenergy/frontend/app/page.tsx:94:17
+Parsing ecmascript source code failed
+  92 |           </Button>
+  93 |         </div>
+> 94 |       </section>
+     |                 ^
+> 95 |
+     | ^
+> 96 |       {/* Features Section */}
+     | ^^^^^^^
+  97 |       <section className="container mx-auto px-4 py-12 md:py-20">
+  98 |         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-6 md:gap-8 max-w-6xl mx-auto">
+  99 |           <div className="glass-card p-6 md:p-8 rounded-2xl text-center hover:scale-105 transition-transform">
+
+Expected '</', got 'jsx text (
+
+      )'
+
+Import traces:
+  Client Component Browser:
+    ./beenergy/frontend/app/page.tsx [Client Component Browser]
+    ./beenergy/frontend/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./beenergy/frontend/app/page.tsx [Client Component SSR]
+    ./beenergy/frontend/app/page.tsx [Server Component]
+[02:32:32.603] Browser ERROR   uncaughtError: Error: ./beenergy/frontend/app/page.tsx:94:17
+Parsing ecmascript source code failed
+  92 |           </Button>
+  93 |         </div>
+> 94 |       </section>
+     |                 ^
+> 95 |
+     | ^
+> 96 |       {/* Features Section */}
+     | ^^^^^^^
+  97 |       <section className="container mx-auto px-4 py-12 md:py-20">
+  98 |         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-6 md:gap-8 max-w-6xl mx-auto">
+  99 |           <div className="glass-card p-6 md:p-8 rounded-2xl text-center hover:scale-105 transition-transform">
+
+Expected '</', got 'jsx text (
+
+      )'
+
+Import traces:
+  Client Component Browser:
+    ./beenergy/frontend/app/page.tsx [Client Component Browser]
+    ./beenergy/frontend/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./beenergy/frontend/app/page.tsx [Client Component SSR]
+    ./beenergy/frontend/app/page.tsx [Server Component]
+
+
+[02:35:26.942] Browser ERROR   ./beenergy/frontend/app/page.tsx:127:35
+Parsing ecmascript source code failed
+  125 |         <div className="flex flex-col md:flex-row items-center justify-between gap-4 max-w-6xl mx-auto">
+  126 |           <div className="flex gap-4 md:gap-6 text-[#8DE8F2] text-sm md:text-base">
+> 127 |             <a href="#" className="hover:text-white transition-color
+      |                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Unterminated string constant
+
+Import traces:
+  Client Component Browser:
+    ./beenergy/frontend/app/page.tsx [Client Component Browser]
+    ./beenergy/frontend/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./beenergy/frontend/app/page.tsx [Client Component SSR]
+    ./beenergy/frontend/app/page.tsx [Server Component]
+[02:35:30.027] Server  ERROR    ⨯ ./beenergy/frontend/app/page.tsx:127:35
+Parsing ecmascript source code failed
+  125 |         <div className="flex flex-col md:flex-row items-center justify-between gap-4 max-w-6xl mx-auto">
+  126 |           <div className="flex gap-4 md:gap-6 text-[#8DE8F2] text-sm md:text-base">
+> 127 |             <a href="#" className="hover:text-white transition-color
+      |                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Unterminated string constant
+
+Import traces:
+  Client Component Browser:
+    ./beenergy/frontend/app/page.tsx [Client Component Browser]
+    ./beenergy/frontend/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./beenergy/frontend/app/page.tsx [Client Component SSR]
+    ./beenergy/frontend/app/page.tsx [Server Component]
+
+
+[02:35:32.314] Browser ERROR   ./beenergy/frontend/app/page.tsx:127:35
+Parsing ecmascript source code failed
+  125 |         <div className="flex flex-col md:flex-row items-center justify-between gap-4 max-w-6xl mx-auto">
+  126 |           <div className="flex gap-4 md:gap-6 text-[#8DE8F2] text-sm md:text-base">
+> 127 |             <a href="#" className="hover:text-white transition-color
+      |                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Unterminated string constant
+
+Import traces:
+  Client Component Browser:
+    ./beenergy/frontend/app/page.tsx [Client Component Browser]
+    ./beenergy/frontend/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./beenergy/frontend/app/page.tsx [Client Component SSR]
+    ./beenergy/frontend/app/page.tsx [Server Component]
+[02:35:32.314] Browser ERROR   uncaughtError: Error: ./beenergy/frontend/app/page.tsx:127:35
+Parsing ecmascript source code failed
+  125 |         <div className="flex flex-col md:flex-row items-center justify-between gap-4 max-w-6xl mx-auto">
+  126 |           <div className="flex gap-4 md:gap-6 text-[#8DE8F2] text-sm md:text-base">
+> 127 |             <a href="#" className="hover:text-white transition-color
+      |                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Unterminated string constant
+
+Import traces:
+  Client Component Browser:
+    ./beenergy/frontend/app/page.tsx [Client Component Browser]
+    ./beenergy/frontend/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./beenergy/frontend/app/page.tsx [Client Component SSR]
+    ./beenergy/frontend/app/page.tsx [Server Component]
+
+
+[02:35:32.599] Browser ERROR   ./beenergy/frontend/app/page.tsx:127:35
+Parsing ecmascript source code failed
+  125 |         <div className="flex flex-col md:flex-row items-center justify-between gap-4 max-w-6xl mx-auto">
+  126 |           <div className="flex gap-4 md:gap-6 text-[#8DE8F2] text-sm md:text-base">
+> 127 |             <a href="#" className="hover:text-white transition-color
+      |                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Unterminated string constant
+
+Import traces:
+  Client Component Browser:
+    ./beenergy/frontend/app/page.tsx [Client Component Browser]
+    ./beenergy/frontend/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./beenergy/frontend/app/page.tsx [Client Component SSR]
+    ./beenergy/frontend/app/page.tsx [Server Component]
+[02:36:33.208] Server  LOG      ✓ Compiled in 661ms
+[02:36:40.312] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:36:41.800] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[02:36:41.800] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[02:36:41.800] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763836831464}
+[02:40:17.336] Server  LOG      ✓ Compiled in 1946ms
+[02:40:35.223] Server  LOG      ✓ Compiled in 323ms
+[02:40:51.977] Server  LOG      ✓ Compiled in 269ms
+[02:41:48.756] Server  LOG      ✓ Compiled in 372ms
+[02:42:38.222] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/dashboard","o":"http://localhost:3000/dashboard","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763837186378}
+[02:50:55.918] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:50:59.060] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[02:50:59.060] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/dashboard","route":"/dashboard"}
+[02:50:59.060] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/dashboard","o":"http://localhost:3000/dashboard","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763837688699}
+[02:50:59.876] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763837689000}
+[02:51:11.046] Server  LOG      ✓ Compiled in 11.1s
+[02:51:12.551] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/dashboard","o":"http://localhost:3000/dashboard","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763837701569}
+[02:56:43.148] Server  LOG      ✓ Compiled in 1940ms
+[02:56:44.364] Browser ERROR   uncaughtError: ReferenceError: User is not defined
+[02:56:51.469] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:56:51.759] Browser ERROR   uncaughtError: ReferenceError: User is not defined
+[02:58:32.516] Server  LOG      ✓ Compiled in 974ms
+[02:58:32.610] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:58:37.675] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:58:38.627] Browser ERROR   uncaughtError: ReferenceError: User is not defined
+[02:59:14.480] Server  LOG      ✓ Compiled in 1003ms
+[02:59:15.546] Browser ERROR   ./beenergy/frontend/components/dashboard-header.tsx:9:10
+Ecmascript file had an error
+   7 | import { ThemeToggle } from "@/components/theme-toggle"
+   8 | import { LanguageSelector } from "@/components/language-selector"
+>  9 | import { MobileSidebar } from "@/components/mobile-sidebar"
+     |          ^^^^^^^^^^^^^
+  10 |
+  11 | export function DashboardHeader() {
+  12 |   const router = useRouter()
+
+the name `MobileSidebar` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./beenergy/frontend/components/dashboard-header.tsx [Client Component Browser]
+    ./beenergy/frontend/app/dashboard/page.tsx [Client Component Browser]
+    ./beenergy/frontend/app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./beenergy/frontend/components/dashboard-header.tsx [Client Component SSR]
+    ./beenergy/frontend/app/dashboard/page.tsx [Client Component SSR]
+    ./beenergy/frontend/app/dashboard/page.tsx [Server Component]
+[02:59:19.930] Server  ERROR    ⨯ ./beenergy/frontend/components/dashboard-header.tsx:9:10
+Ecmascript file had an error
+   7 | import { ThemeToggle } from "@/components/theme-toggle"
+   8 | import { LanguageSelector } from "@/components/language-selector"
+>  9 | import { MobileSidebar } from "@/components/mobile-sidebar"
+     |          ^^^^^^^^^^^^^
+  10 |
+  11 | export function DashboardHeader() {
+  12 |   const router = useRouter()
+
+the name `MobileSidebar` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./beenergy/frontend/components/dashboard-header.tsx [Client Component Browser]
+    ./beenergy/frontend/app/dashboard/page.tsx [Client Component Browser]
+    ./beenergy/frontend/app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./beenergy/frontend/components/dashboard-header.tsx [Client Component SSR]
+    ./beenergy/frontend/app/dashboard/page.tsx [Client Component SSR]
+    ./beenergy/frontend/app/dashboard/page.tsx [Server Component]
+
+
+[02:59:21.151] Browser ERROR   uncaughtError: Error: ./beenergy/frontend/components/dashboard-header.tsx:9:10
+Ecmascript file had an error
+   7 | import { ThemeToggle } from "@/components/theme-toggle"
+   8 | import { LanguageSelector } from "@/components/language-selector"
+>  9 | import { MobileSidebar } from "@/components/mobile-sidebar"
+     |          ^^^^^^^^^^^^^
+  10 |
+  11 | export function DashboardHeader() {
+  12 |   const router = useRouter()
+
+the name `MobileSidebar` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./beenergy/frontend/components/dashboard-header.tsx [Client Component Browser]
+    ./beenergy/frontend/app/dashboard/page.tsx [Client Component Browser]
+    ./beenergy/frontend/app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./beenergy/frontend/components/dashboard-header.tsx [Client Component SSR]
+    ./beenergy/frontend/app/dashboard/page.tsx [Client Component SSR]
+    ./beenergy/frontend/app/dashboard/page.tsx [Server Component]
+
+
+[02:59:21.151] Browser ERROR   ./beenergy/frontend/components/dashboard-header.tsx:9:10
+Ecmascript file had an error
+   7 | import { ThemeToggle } from "@/components/theme-toggle"
+   8 | import { LanguageSelector } from "@/components/language-selector"
+>  9 | import { MobileSidebar } from "@/components/mobile-sidebar"
+     |          ^^^^^^^^^^^^^
+  10 |
+  11 | export function DashboardHeader() {
+  12 |   const router = useRouter()
+
+the name `MobileSidebar` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./beenergy/frontend/components/dashboard-header.tsx [Client Component Browser]
+    ./beenergy/frontend/app/dashboard/page.tsx [Client Component Browser]
+    ./beenergy/frontend/app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./beenergy/frontend/components/dashboard-header.tsx [Client Component SSR]
+    ./beenergy/frontend/app/dashboard/page.tsx [Client Component SSR]
+    ./beenergy/frontend/app/dashboard/page.tsx [Server Component]
+[02:59:21.404] Browser ERROR   ./beenergy/frontend/components/dashboard-header.tsx:9:10
+Ecmascript file had an error
+   7 | import { ThemeToggle } from "@/components/theme-toggle"
+   8 | import { LanguageSelector } from "@/components/language-selector"
+>  9 | import { MobileSidebar } from "@/components/mobile-sidebar"
+     |          ^^^^^^^^^^^^^
+  10 |
+  11 | export function DashboardHeader() {
+  12 |   const router = useRouter()
+
+the name `MobileSidebar` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./beenergy/frontend/components/dashboard-header.tsx [Client Component Browser]
+    ./beenergy/frontend/app/dashboard/page.tsx [Client Component Browser]
+    ./beenergy/frontend/app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./beenergy/frontend/components/dashboard-header.tsx [Client Component SSR]
+    ./beenergy/frontend/app/dashboard/page.tsx [Client Component SSR]
+    ./beenergy/frontend/app/dashboard/page.tsx [Server Component]
+[03:02:09.918] Browser ERROR   ./beenergy/frontend/components/dashboard-header.tsx:9:10
+Ecmascript file had an error
+   7 | import { ThemeToggle } from "@/components/theme-toggle"
+   8 | import { LanguageSelector } from "@/components/language-selector"
+>  9 | import { MobileSidebar } from "@/components/mobile-sidebar"
+     |          ^^^^^^^^^^^^^
+  10 |
+  11 | export function DashboardHeader() {
+  12 |   const router = useRouter()
+
+the name `MobileSidebar` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./beenergy/frontend/components/dashboard-header.tsx [Client Component Browser]
+    ./beenergy/frontend/app/dashboard/page.tsx [Client Component Browser]
+    ./beenergy/frontend/app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./beenergy/frontend/components/dashboard-header.tsx [Client Component SSR]
+    ./beenergy/frontend/app/dashboard/page.tsx [Client Component SSR]
+    ./beenergy/frontend/app/dashboard/page.tsx [Server Component]
+[03:02:21.856] Server  LOG      ✓ Compiled in 606ms
+[03:02:44.339] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:02:45.592] Browser ERROR   uncaughtError: ReferenceError: User is not defined
+[03:02:52.235] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:02:52.703] Browser ERROR   uncaughtError: ReferenceError: User is not defined
+[03:05:57.072] Server  LOG      ✓ Compiled in 3.9s
+[03:05:57.247] Browser ERROR   ./beenergy/frontend/components/dashboard-header.tsx:9:10
+Ecmascript file had an error
+   7 | import { ThemeToggle } from "@/components/theme-toggle"
+   8 | import { LanguageSelector } from "@/components/language-selector"
+>  9 | import { MobileSidebar } from "@/components/mobile-sidebar"
+     |          ^^^^^^^^^^^^^
+  10 |
+  11 | export function DashboardHeader() {
+  12 |   const router = useRouter()
+
+the name `MobileSidebar` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./beenergy/frontend/components/dashboard-header.tsx [Client Component Browser]
+    ./beenergy/frontend/app/dashboard/page.tsx [Client Component Browser]
+    ./beenergy/frontend/app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./beenergy/frontend/components/dashboard-header.tsx [Client Component SSR]
+    ./beenergy/frontend/app/dashboard/page.tsx [Client Component SSR]
+    ./beenergy/frontend/app/dashboard/page.tsx [Server Component]
+[03:05:59.288] Server  ERROR    ⨯ ./beenergy/frontend/components/dashboard-header.tsx:9:10
+Ecmascript file had an error
+   7 | import { ThemeToggle } from "@/components/theme-toggle"
+   8 | import { LanguageSelector } from "@/components/language-selector"
+>  9 | import { MobileSidebar } from "@/components/mobile-sidebar"
+     |          ^^^^^^^^^^^^^
+  10 |
+  11 | export function DashboardHeader() {
+  12 |   const router = useRouter()
+
+the name `MobileSidebar` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./beenergy/frontend/components/dashboard-header.tsx [Client Component Browser]
+    ./beenergy/frontend/app/dashboard/page.tsx [Client Component Browser]
+    ./beenergy/frontend/app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./beenergy/frontend/components/dashboard-header.tsx [Client Component SSR]
+    ./beenergy/frontend/app/dashboard/page.tsx [Client Component SSR]
+    ./beenergy/frontend/app/dashboard/page.tsx [Server Component]
+
+
+[03:06:00.288] Browser ERROR   uncaughtError: Error: ./beenergy/frontend/components/dashboard-header.tsx:9:10
+Ecmascript file had an error
+   7 | import { ThemeToggle } from "@/components/theme-toggle"
+   8 | import { LanguageSelector } from "@/components/language-selector"
+>  9 | import { MobileSidebar } from "@/components/mobile-sidebar"
+     |          ^^^^^^^^^^^^^
+  10 |
+  11 | export function DashboardHeader() {
+  12 |   const router = useRouter()
+
+the name `MobileSidebar` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./beenergy/frontend/components/dashboard-header.tsx [Client Component Browser]
+    ./beenergy/frontend/app/dashboard/page.tsx [Client Component Browser]
+    ./beenergy/frontend/app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./beenergy/frontend/components/dashboard-header.tsx [Client Component SSR]
+    ./beenergy/frontend/app/dashboard/page.tsx [Client Component SSR]
+    ./beenergy/frontend/app/dashboard/page.tsx [Server Component]
+
+
+[03:06:00.524] Browser ERROR   ./beenergy/frontend/components/dashboard-header.tsx:9:10
+Ecmascript file had an error
+   7 | import { ThemeToggle } from "@/components/theme-toggle"
+   8 | import { LanguageSelector } from "@/components/language-selector"
+>  9 | import { MobileSidebar } from "@/components/mobile-sidebar"
+     |          ^^^^^^^^^^^^^
+  10 |
+  11 | export function DashboardHeader() {
+  12 |   const router = useRouter()
+
+the name `MobileSidebar` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./beenergy/frontend/components/dashboard-header.tsx [Client Component Browser]
+    ./beenergy/frontend/app/dashboard/page.tsx [Client Component Browser]
+    ./beenergy/frontend/app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./beenergy/frontend/components/dashboard-header.tsx [Client Component SSR]
+    ./beenergy/frontend/app/dashboard/page.tsx [Client Component SSR]
+    ./beenergy/frontend/app/dashboard/page.tsx [Server Component]
+[03:06:00.525] Browser ERROR   ./beenergy/frontend/components/dashboard-header.tsx:9:10
+Ecmascript file had an error
+   7 | import { ThemeToggle } from "@/components/theme-toggle"
+   8 | import { LanguageSelector } from "@/components/language-selector"
+>  9 | import { MobileSidebar } from "@/components/mobile-sidebar"
+     |          ^^^^^^^^^^^^^
+  10 |
+  11 | export function DashboardHeader() {
+  12 |   const router = useRouter()
+
+the name `MobileSidebar` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./beenergy/frontend/components/dashboard-header.tsx [Client Component Browser]
+    ./beenergy/frontend/app/dashboard/page.tsx [Client Component Browser]
+    ./beenergy/frontend/app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./beenergy/frontend/components/dashboard-header.tsx [Client Component SSR]
+    ./beenergy/frontend/app/dashboard/page.tsx [Client Component SSR]
+    ./beenergy/frontend/app/dashboard/page.tsx [Server Component]
+[03:06:36.841] Browser ERROR   ./beenergy/frontend/components/dashboard-header.tsx:10:60
+Parsing ecmascript source code failed
+   8 | import { LanguageSelector } from "@/components/language-selector"
+   9 | import { User } from "lucide-react"
+> 10 | import { MobileSidebar } from "@/components/mobile-sidebar"export function DashboardHeader() {
+     |                                                            ^^^^^^
+  11 |  
+  12 |  
+  13 |   const router = useRouter()
+
+Expected ';', got 'export'
+
+Import traces:
+  Client Component Browser:
+    ./beenergy/frontend/components/dashboard-header.tsx [Client Component Browser]
+    ./beenergy/frontend/app/dashboard/page.tsx [Client Component Browser]
+    ./beenergy/frontend/app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./beenergy/frontend/components/dashboard-header.tsx [Client Component SSR]
+    ./beenergy/frontend/app/dashboard/page.tsx [Client Component SSR]
+    ./beenergy/frontend/app/dashboard/page.tsx [Server Component]
+[03:06:40.349] Server  ERROR    ⨯ ./beenergy/frontend/components/dashboard-header.tsx:10:60
+Parsing ecmascript source code failed
+   8 | import { LanguageSelector } from "@/components/language-selector"
+   9 | import { User } from "lucide-react"
+> 10 | import { MobileSidebar } from "@/components/mobile-sidebar"export function DashboardHeader() {
+     |                                                            ^^^^^^
+  11 |  
+  12 |  
+  13 |   const router = useRouter()
+
+Expected ';', got 'export'
+
+Import traces:
+  Client Component Browser:
+    ./beenergy/frontend/components/dashboard-header.tsx [Client Component Browser]
+    ./beenergy/frontend/app/dashboard/page.tsx [Client Component Browser]
+    ./beenergy/frontend/app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./beenergy/frontend/components/dashboard-header.tsx [Client Component SSR]
+    ./beenergy/frontend/app/dashboard/page.tsx [Client Component SSR]
+    ./beenergy/frontend/app/dashboard/page.tsx [Server Component]
+
+
+[03:06:41.188] Browser ERROR   uncaughtError: Error: ./beenergy/frontend/components/dashboard-header.tsx:10:60
+Parsing ecmascript source code failed
+   8 | import { LanguageSelector } from "@/components/language-selector"
+   9 | import { User } from "lucide-react"
+> 10 | import { MobileSidebar } from "@/components/mobile-sidebar"export function DashboardHeader() {
+     |                                                            ^^^^^^
+  11 |  
+  12 |  
+  13 |   const router = useRouter()
+
+Expected ';', got 'export'
+
+Import traces:
+  Client Component Browser:
+    ./beenergy/frontend/components/dashboard-header.tsx [Client Component Browser]
+    ./beenergy/frontend/app/dashboard/page.tsx [Client Component Browser]
+    ./beenergy/frontend/app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./beenergy/frontend/components/dashboard-header.tsx [Client Component SSR]
+    ./beenergy/frontend/app/dashboard/page.tsx [Client Component SSR]
+    ./beenergy/frontend/app/dashboard/page.tsx [Server Component]
+
+
+[03:06:41.393] Browser ERROR   ./beenergy/frontend/components/dashboard-header.tsx:10:60
+Parsing ecmascript source code failed
+   8 | import { LanguageSelector } from "@/components/language-selector"
+   9 | import { User } from "lucide-react"
+> 10 | import { MobileSidebar } from "@/components/mobile-sidebar"export function DashboardHeader() {
+     |                                                            ^^^^^^
+  11 |  
+  12 |  
+  13 |   const router = useRouter()
+
+Expected ';', got 'export'
+
+Import traces:
+  Client Component Browser:
+    ./beenergy/frontend/components/dashboard-header.tsx [Client Component Browser]
+    ./beenergy/frontend/app/dashboard/page.tsx [Client Component Browser]
+    ./beenergy/frontend/app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./beenergy/frontend/components/dashboard-header.tsx [Client Component SSR]
+    ./beenergy/frontend/app/dashboard/page.tsx [Client Component SSR]
+    ./beenergy/frontend/app/dashboard/page.tsx [Server Component]
+[03:06:41.393] Browser ERROR   ./beenergy/frontend/components/dashboard-header.tsx:10:60
+Parsing ecmascript source code failed
+   8 | import { LanguageSelector } from "@/components/language-selector"
+   9 | import { User } from "lucide-react"
+> 10 | import { MobileSidebar } from "@/components/mobile-sidebar"export function DashboardHeader() {
+     |                                                            ^^^^^^
+  11 |  
+  12 |  
+  13 |   const router = useRouter()
+
+Expected ';', got 'export'
+
+Import traces:
+  Client Component Browser:
+    ./beenergy/frontend/components/dashboard-header.tsx [Client Component Browser]
+    ./beenergy/frontend/app/dashboard/page.tsx [Client Component Browser]
+    ./beenergy/frontend/app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./beenergy/frontend/components/dashboard-header.tsx [Client Component SSR]
+    ./beenergy/frontend/app/dashboard/page.tsx [Client Component SSR]
+    ./beenergy/frontend/app/dashboard/page.tsx [Server Component]
+[03:11:45.317] Browser ERROR   ./beenergy/frontend/components/dashboard-header.tsx:29:3
+Parsing ecmascript source code failed
+  27 |   }
+  28 |
+> 29 |   return (
+     |   ^^^^^^^^
+> 30 |     <header className="bg-card border-b border-border p-2 md:p-3">
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 31 |       <div className="flex items-center justify-between gap-4">
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 32 |         <div className="flex items-center gap-4">
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 33 |           <MobileSidebar />
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 34 |         </div>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 35 |
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 36 |         <div className="flex items-center gap-3">
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 37 |           <LanguageSelector />
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 38 |           <ThemeToggle />
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 39 |           {userProfile?.avatar ? (
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 40 |   <button
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 41 |     onClick={goToProfile}
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 42 |     className="w-9 h-9 md:w-10 md:h-10 rounded-full overflow-hidden border-2 border-primary/30 flex-shrink-0 hover:border-primary transition-colors cursor-pointer"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 43 |   >
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 44 |     <img
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 45 |       src={userProfile.avatar || "/placeholder.svg"}
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 46 |       alt={userProfile.name}
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 47 |       className="w-full h-full object-cover"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 48 |     />
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 49 |   </button>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 50 | ) : (
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 51 |   <button
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 52 |     onClick={goToProfile}
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 53 |           className="w-9 h-9 md:w-10 md:h-10 rounded-full flex items-center justify-center flex-shrink-0 hover:bg-primary/10 transition-all cursor-pointer bg-gradient-to-br from-primary/20 to-accent/20 border-2 border-primary/30"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 54 |         >
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 55 |           <User className="w-5 h-5 text-primary" />
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 56 |         </button>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 57 |       )}
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 58 |         </div>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 59 |       </div>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 60 |     </header>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 61 |   )
+     | ^^^^
+  62 | }
+  63 |
+
+Return statement is not allowed here
+
+Import traces:
+  Client Component Browser:
+    ./beenergy/frontend/components/dashboard-header.tsx [Client Component Browser]
+    ./beenergy/frontend/app/dashboard/page.tsx [Client Component Browser]
+    ./beenergy/frontend/app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./beenergy/frontend/components/dashboard-header.tsx [Client Component SSR]
+    ./beenergy/frontend/app/dashboard/page.tsx [Client Component SSR]
+    ./beenergy/frontend/app/dashboard/page.tsx [Server Component]
+[03:11:49.342] Server  ERROR    ⨯ ./beenergy/frontend/components/dashboard-header.tsx:29:3
+Parsing ecmascript source code failed
+  27 |   }
+  28 |
+> 29 |   return (
+     |   ^^^^^^^^
+> 30 |     <header className="bg-card border-b border-border p-2 md:p-3">
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 31 |       <div className="flex items-center justify-between gap-4">
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 32 |         <div className="flex items-center gap-4">
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 33 |           <MobileSidebar />
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 34 |         </div>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 35 |
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 36 |         <div className="flex items-center gap-3">
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 37 |           <LanguageSelector />
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 38 |           <ThemeToggle />
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 39 |           {userProfile?.avatar ? (
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 40 |   <button
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 41 |     onClick={goToProfile}
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 42 |     className="w-9 h-9 md:w-10 md:h-10 rounded-full overflow-hidden border-2 border-primary/30 flex-shrink-0 hover:border-primary transition-colors cursor-pointer"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 43 |   >
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 44 |     <img
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 45 |       src={userProfile.avatar || "/placeholder.svg"}
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 46 |       alt={userProfile.name}
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 47 |       className="w-full h-full object-cover"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 48 |     />
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 49 |   </button>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 50 | ) : (
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 51 |   <button
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 52 |     onClick={goToProfile}
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 53 |           className="w-9 h-9 md:w-10 md:h-10 rounded-full flex items-center justify-center flex-shrink-0 hover:bg-primary/10 transition-all cursor-pointer bg-gradient-to-br from-primary/20 to-accent/20 border-2 border-primary/30"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 54 |         >
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 55 |           <User className="w-5 h-5 text-primary" />
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 56 |         </button>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 57 |       )}
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 58 |         </div>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 59 |       </div>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 60 |     </header>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 61 |   )
+     | ^^^^
+  62 | }
+  63 |
+
+Return statement is not allowed here
+
+Import traces:
+  Client Component Browser:
+    ./beenergy/frontend/components/dashboard-header.tsx [Client Component Browser]
+    ./beenergy/frontend/app/dashboard/page.tsx [Client Component Browser]
+    ./beenergy/frontend/app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./beenergy/frontend/components/dashboard-header.tsx [Client Component SSR]
+    ./beenergy/frontend/app/dashboard/page.tsx [Client Component SSR]
+    ./beenergy/frontend/app/dashboard/page.tsx [Server Component]
+
+
+[03:11:51.054] Browser ERROR   uncaughtError: Error: ./beenergy/frontend/components/dashboard-header.tsx:29:3
+Parsing ecmascript source code failed
+  27 |   }
+  28 |
+> 29 |   return (
+     |   ^^^^^^^^
+> 30 |     <header className="bg-card border-b border-border p-2 md:p-3">
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 31 |       <div className="flex items-center justify-between gap-4">
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 32 |         <div className="flex items-center gap-4">
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 33 |           <MobileSidebar />
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 34 |         </div>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 35 |
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 36 |         <div className="flex items-center gap-3">
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 37 |           <LanguageSelector />
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 38 |           <ThemeToggle />
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 39 |           {userProfile?.avatar ? (
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 40 |   <button
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 41 |     onClick={goToProfile}
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 42 |     className="w-9 h-9 md:w-10 md:h-10 rounded-full overflow-hidden border-2 border-primary/30 flex-shrink-0 hover:border-primary transition-colors cursor-pointer"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 43 |   >
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 44 |     <img
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 45 |       src={userProfile.avatar || "/placeholder.svg"}
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 46 |       alt={userProfile.name}
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 47 |       className="w-full h-full object-cover"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 48 |     />
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 49 |   </button>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 50 | ) : (
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 51 |   <button
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 52 |     onClick={goToProfile}
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 53 |           className="w-9 h-9 md:w-10 md:h-10 rounded-full flex items-center justify-center flex-shrink-0 hover:bg-primary/10 transition-all cursor-pointer bg-gradient-to-br from-primary/20 to-accent/20 border-2 border-primary/30"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 54 |         >
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 55 |           <User className="w-5 h-5 text-primary" />
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 56 |         </button>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 57 |       )}
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 58 |         </div>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 59 |       </div>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 60 |     </header>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 61 |   )
+     | ^^^^
+  62 | }
+  63 |
+
+Return statement is not allowed here
+
+Import traces:
+  Client Component Browser:
+    ./beenergy/frontend/components/dashboard-header.tsx [Client Component Browser]
+    ./beenergy/frontend/app/dashboard/page.tsx [Client Component Browser]
+    ./beenergy/frontend/app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./beenergy/frontend/components/dashboard-header.tsx [Client Component SSR]
+    ./beenergy/frontend/app/dashboard/page.tsx [Client Component SSR]
+    ./beenergy/frontend/app/dashboard/page.tsx [Server Component]
+
+
+[03:11:51.054] Browser ERROR   ./beenergy/frontend/components/dashboard-header.tsx:29:3
+Parsing ecmascript source code failed
+  27 |   }
+  28 |
+> 29 |   return (
+     |   ^^^^^^^^
+> 30 |     <header className="bg-card border-b border-border p-2 md:p-3">
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 31 |       <div className="flex items-center justify-between gap-4">
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 32 |         <div className="flex items-center gap-4">
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 33 |           <MobileSidebar />
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 34 |         </div>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 35 |
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 36 |         <div className="flex items-center gap-3">
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 37 |           <LanguageSelector />
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 38 |           <ThemeToggle />
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 39 |           {userProfile?.avatar ? (
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 40 |   <button
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 41 |     onClick={goToProfile}
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 42 |     className="w-9 h-9 md:w-10 md:h-10 rounded-full overflow-hidden border-2 border-primary/30 flex-shrink-0 hover:border-primary transition-colors cursor-pointer"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 43 |   >
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 44 |     <img
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 45 |       src={userProfile.avatar || "/placeholder.svg"}
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 46 |       alt={userProfile.name}
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 47 |       className="w-full h-full object-cover"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 48 |     />
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 49 |   </button>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 50 | ) : (
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 51 |   <button
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 52 |     onClick={goToProfile}
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 53 |           className="w-9 h-9 md:w-10 md:h-10 rounded-full flex items-center justify-center flex-shrink-0 hover:bg-primary/10 transition-all cursor-pointer bg-gradient-to-br from-primary/20 to-accent/20 border-2 border-primary/30"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 54 |         >
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 55 |           <User className="w-5 h-5 text-primary" />
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 56 |         </button>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 57 |       )}
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 58 |         </div>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 59 |       </div>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 60 |     </header>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 61 |   )
+     | ^^^^
+  62 | }
+  63 |
+
+Return statement is not allowed here
+
+Import traces:
+  Client Component Browser:
+    ./beenergy/frontend/components/dashboard-header.tsx [Client Component Browser]
+    ./beenergy/frontend/app/dashboard/page.tsx [Client Component Browser]
+    ./beenergy/frontend/app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./beenergy/frontend/components/dashboard-header.tsx [Client Component SSR]
+    ./beenergy/frontend/app/dashboard/page.tsx [Client Component SSR]
+    ./beenergy/frontend/app/dashboard/page.tsx [Server Component]
+[03:11:51.654] Browser ERROR   ./beenergy/frontend/components/dashboard-header.tsx:29:3
+Parsing ecmascript source code failed
+  27 |   }
+  28 |
+> 29 |   return (
+     |   ^^^^^^^^
+> 30 |     <header className="bg-card border-b border-border p-2 md:p-3">
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 31 |       <div className="flex items-center justify-between gap-4">
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 32 |         <div className="flex items-center gap-4">
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 33 |           <MobileSidebar />
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 34 |         </div>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 35 |
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 36 |         <div className="flex items-center gap-3">
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 37 |           <LanguageSelector />
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 38 |           <ThemeToggle />
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 39 |           {userProfile?.avatar ? (
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 40 |   <button
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 41 |     onClick={goToProfile}
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 42 |     className="w-9 h-9 md:w-10 md:h-10 rounded-full overflow-hidden border-2 border-primary/30 flex-shrink-0 hover:border-primary transition-colors cursor-pointer"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 43 |   >
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 44 |     <img
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 45 |       src={userProfile.avatar || "/placeholder.svg"}
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 46 |       alt={userProfile.name}
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 47 |       className="w-full h-full object-cover"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 48 |     />
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 49 |   </button>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 50 | ) : (
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 51 |   <button
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 52 |     onClick={goToProfile}
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 53 |           className="w-9 h-9 md:w-10 md:h-10 rounded-full flex items-center justify-center flex-shrink-0 hover:bg-primary/10 transition-all cursor-pointer bg-gradient-to-br from-primary/20 to-accent/20 border-2 border-primary/30"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 54 |         >
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 55 |           <User className="w-5 h-5 text-primary" />
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 56 |         </button>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 57 |       )}
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 58 |         </div>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 59 |       </div>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 60 |     </header>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 61 |   )
+     | ^^^^
+  62 | }
+  63 |
+
+Return statement is not allowed here
+
+Import traces:
+  Client Component Browser:
+    ./beenergy/frontend/components/dashboard-header.tsx [Client Component Browser]
+    ./beenergy/frontend/app/dashboard/page.tsx [Client Component Browser]
+    ./beenergy/frontend/app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./beenergy/frontend/components/dashboard-header.tsx [Client Component SSR]
+    ./beenergy/frontend/app/dashboard/page.tsx [Client Component SSR]
+    ./beenergy/frontend/app/dashboard/page.tsx [Server Component]
+[03:12:52.595] Server  LOG      ✓ Compiled in 2.4s
+[03:12:55.714] Server  LOG      ○ Compiling /dashboard ...
+[03:13:08.910] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:13:12.759] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[03:13:12.759] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/dashboard","route":"/dashboard"}
+[03:13:12.759] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[03:13:12.759] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/dashboard","o":"http://localhost:3000/dashboard","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763839025135}
+[03:13:12.759] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763839025135}
+[03:13:14.254] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/dashboard","o":"http://localhost:3000/dashboard","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763839026011}
+[03:14:02.174] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:14:03.632] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[03:14:03.632] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/dashboard","route":"/dashboard"}
+[03:14:03.632] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/dashboard","o":"http://localhost:3000/dashboard","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763839076065}
+[03:14:04.379] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763839076518}
+[03:14:06.329] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/dashboard","o":"http://localhost:3000/dashboard","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763839077737}

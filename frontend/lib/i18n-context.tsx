@@ -15,16 +15,16 @@ const I18nContext = createContext<I18nContextType | undefined>(undefined)
 const translations = {
   es: {
     // Landing Page
-    "landing.title": "Energía Verde Tokenizada",
-    "landing.subtitle": "Genera, consume y comercializa kWh en tu comunidad cooperativa",
-    "landing.start": "Comenzar",
+    "landing.title": "BeEnergy",
+    "landing.subtitle": "Energía limpia, más económica y totalmente transparente. Genera, usa y comparte energía en tu comunidad: sin burocracia, sin complicaciones, sin depender del sistema tradicional.",
+    "landing.start": "Únete",    
     "landing.connectWallet": "Conectar Wallet",
     "landing.feature.generate.title": "Genera",
-    "landing.feature.generate.description": "Participa en instalaciones solares y eólicas compartidas",
+    "landing.feature.generate.description": "Únete a instalaciones solares compartidas con tu comunidad. Tu comunidad produce su propia energía y cada hogar recibe automáticamente su parte.s",
     "landing.feature.trade.title": "Comercializa",
-    "landing.feature.trade.description": "Vende tu energía excedente en el marketplace P2P",
+    "landing.feature.trade.description": "Si te sobra energía, la vendes. Si necesitas más, la compras. Un mercado directo entre vecinos: sin intermediarios, precios justos.",
     "landing.feature.manage.title": "Gestiona",
-    "landing.feature.manage.description": "Monitorea tu consumo y producción en tiempo real",
+    "landing.feature.manage.description": "Si te sobra energía, la vendes. Si necesitas más, la compras. Un mercado directo entre vecinos: sin intermediarios, precios justos.",
     "landing.footer.docs": "Documentación",
     "landing.footer.powered": "Powered by Stellar",
 
@@ -41,7 +41,7 @@ const translations = {
     "dashboard.recentActivity": "Actividad Reciente",
     "dashboard.recentTransactions": "Últimas transacciones",
     "dashboard.viewAll": "Ver todo",
-    "dashboard.swap": "Swap → XLM",
+    "dashboard.swap": "Swap → HDROP",
 
     // Marketplace
     "marketplace.title": "Marketplace Comunitario",
@@ -149,15 +149,15 @@ const translations = {
   en: {
     // Landing Page
     "landing.title": "Tokenized Green Energy",
-    "landing.subtitle": "Generate, consume and trade kWh in your cooperative community",
+    "landing.subtitle": "Clean energy, cheaper and fully transparent. Generate, use, and share energy within your community — no bureaucracy, no complications, no dependence on the traditional system.",
     "landing.start": "Get Started",
     "landing.connectWallet": "Connect Wallet",
     "landing.feature.generate.title": "Generate",
-    "landing.feature.generate.description": "Participate in shared solar and wind installations",
+    "landing.feature.generate.description": "Join shared solar installations with your community.Your community produces its own energy, and each home automatically receives its share.",
     "landing.feature.trade.title": "Trade",
-    "landing.feature.trade.description": "Sell your excess energy on the P2P marketplace",
+    "landing.feature.trade.description": "If you have extra energy, you sell. If you need more, you buy. A direct marketplace between neighbors — no middlemen, fair prices.",
     "landing.feature.manage.title": "Manage",
-    "landing.feature.manage.description": "Monitor your consumption and production in real time",
+    "landing.feature.manage.description": "If you have extra energy, you sell. If you need more, you buy. A direct marketplace between neighbors — no middlemen, fair prices.",
     "landing.footer.docs": "Documentation",
     "landing.footer.powered": "Powered by Stellar",
 
@@ -174,7 +174,7 @@ const translations = {
     "dashboard.recentActivity": "Recent Activity",
     "dashboard.recentTransactions": "Recent transactions",
     "dashboard.viewAll": "View all",
-    "dashboard.swap": "Swap → XLM",
+    "dashboard.swap": "Swap → HDROP",
 
     // Marketplace
     "marketplace.title": "Community Marketplace",

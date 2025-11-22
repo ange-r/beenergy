@@ -1,12 +1,50 @@
 {
   "pages": {
-    "/_app": []
+    "/_app": [
+      "static/chunks/61784_next_dist_compiled_a13a028c._.js",
+      "static/chunks/61784_next_dist_shared_lib_404e01a8._.js",
+      "static/chunks/61784_next_dist_client_eee1a147._.js",
+      "static/chunks/61784_next_dist_3c60a024._.js",
+      "static/chunks/61784_next_app_a7831f48.js",
+      "static/chunks/[next]_entry_page-loader_ts_4c2a4820._.js",
+      "static/chunks/61784_react-dom_7975af6e._.js",
+      "static/chunks/61784_520c473a._.js",
+      "static/chunks/[root-of-the-server]__b56e6c2c._.js",
+      "static/chunks/beenergy_frontend_pages__app_2da965e7._.js",
+      "static/chunks/turbopack-beenergy_frontend_pages__app_0a892877._.js"
+    ],
+    "/_error": [
+      "static/chunks/61784_next_dist_compiled_a13a028c._.js",
+      "static/chunks/61784_next_dist_shared_lib_2f001922._.js",
+      "static/chunks/61784_next_dist_client_eee1a147._.js",
+      "static/chunks/61784_next_dist_1c124334._.js",
+      "static/chunks/61784_next_error_802bd0ef.js",
+      "static/chunks/[next]_entry_page-loader_ts_a84c1104._.js",
+      "static/chunks/61784_react-dom_7975af6e._.js",
+      "static/chunks/61784_520c473a._.js",
+      "static/chunks/[root-of-the-server]__7cf12f62._.js",
+      "static/chunks/beenergy_frontend_pages__error_2da965e7._.js",
+      "static/chunks/turbopack-beenergy_frontend_pages__error_b5ead8b4._.js"
+    ]
   },
   "devFiles": [],
-  "polyfillFiles": [],
+  "polyfillFiles": [
+    "static/chunks/61784_next_dist_build_polyfills_polyfill-nomodule.js"
+  ],
   "lowPriorityFiles": [
     "static/development/_ssgManifest.js",
     "static/development/_buildManifest.js"
   ],
-  "rootMainFiles": []
+  "rootMainFiles": [
+    "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_2e21ccc0._.js",
+    "static/chunks/61784_next_dist_compiled_react-dom_3b340156._.js",
+    "static/chunks/61784_next_dist_compiled_react-server-dom-turbopack_b9dca212._.js",
+    "static/chunks/61784_next_dist_compiled_next-devtools_index_2f82e62d.js",
+    "static/chunks/61784_next_dist_compiled_a26376b6._.js",
+    "static/chunks/61784_next_dist_client_f3b7ab9c._.js",
+    "static/chunks/61784_next_dist_daeba8dd._.js",
+    "static/chunks/61784_@swc_helpers_cjs_8f36f371._.js",
+    "static/chunks/beenergy_frontend_a0ff3932._.js",
+    "static/chunks/turbopack-beenergy_frontend_7275c9fe._.js"
+  ]
 }
