@@ -583,6 +583,13 @@ dependencies = [
 ]
 
 [[package]]
+name = "energy_marketplace"
+version = "0.0.1"
+dependencies = [
+ "soroban-sdk",
+]
+
+[[package]]
 name = "energy_token"
 version = "0.1.0"
 dependencies = [
