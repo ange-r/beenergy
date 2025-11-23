@@ -112,18 +112,10 @@ La plataforma utiliza **Stellar blockchain** para tokenizar kWh de energía como
 
 ### Blockchain
 - **Stellar Testnet/Mainnet** - Red blockchain
-- **Soroban Smart Contracts** - energy_token, energy_distribution, community_governance
+- **Soroban Smart Contracts** - energy_token, energy_distribution, community_governance (a futuro)
 - **OpenZeppelin Stellar** ^0.4.1 - Token estándar SEP-41
 - **Stellar DEX** - Trading P2P nativo
 - **Multi-sig Accounts** - Wallet comunitaria
-
-### Herramientas
-- **Vite** 7.1.11 - Build tool
-- **ESLint** 9.36.0 - Linting
-- **Prettier** 3.6.2 - Formateo
-- **Husky** 9.1.7 - Git hooks
-- **React Hook Form** - Formularios
-- **Zod** - Validación de esquemas
 
 ---
 
@@ -347,7 +339,7 @@ beenergy/
   - Barra de eficiencia
 
 - 🏆 **Ranking Comunitario**
-  - Top 8 usuarios
+  - Top de usuarios
   - Sistema de hojas 🍃
   - ZK Proofs para privacidad
   - Nombres parcialmente ocultos
@@ -622,7 +614,7 @@ chore: mantenimiento
 
 ## 📝 Roadmap
 
-### ✅ Completado (Q4 2024)
+### ✅ Completado
 - Dashboard interactivo con gráficos
 - Marketplace P2P en Stellar DEX
 - Integración Stellar + Soroban
@@ -631,7 +623,7 @@ chore: mantenimiento
 - Multi-idioma (ES/EN)
 - API Routes completa
 
-### 🚧 En Progreso (Q1 2025)
+### 🚧 En Progreso 
 - Tests unitarios (80% coverage)
 - Integración Mainnet
 - Mobile app
@@ -680,7 +672,6 @@ MIT License - Ver [LICENSE](LICENSE)
 
 <div align="center">
 
-**⚡ Construido con energía renovable ⚡**
 
 [⬆ Volver arriba](#-beenergy---energía-verde-tokenizada)
 
