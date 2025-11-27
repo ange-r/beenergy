@@ -656,7 +656,7 @@ chore: mantenimiento
 - **Beverly González** - Frontend Development
 
 **Contacto:**
-- 🐦 Twitter: [@BeEnergyDAO](https://x.com/beenergycom?s=11)
+- 🐦 X: [@BeEnergyDAO](https://x.com/beenergycom?s=11)
 - 📧 Email: benenergycoomunity@gmail.com
 
 ---
